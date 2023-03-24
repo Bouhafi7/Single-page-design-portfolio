@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Single-page design portfolio</title>
+</head>
+<body class="bg-[#fff7f0]">
+    
+    <header class="mb-20 max-sm:mb-8">
+        <div class="container h-[6.5rem] flex items-center justify-between">
+            <img src="images/logo.svg" alt="">
+            <button class="bg-black text-white capitalize font-semibold transition-all duration-200 max-sm:text-xs linear hover:bg-[#755cde] rounded-[30px] py-4 px-10 max-sm:py-3 max-sm:px-8">free consultation</button>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h1 class="font-bold text-6xl text-center mb-7 max-sm:text-4xl">Design solutions made easy</h1>
+            <p class="text-[#7a746e] w-[620px] text-[17px] text-center font-medium m-auto max-sm:w-fit mb-20 max-sm:mb-10">With over ten years of experience in various design disciplines, 
+                I’m your one-stop shop for your design needs.</p>
+            <div class="grid grid-cols-6 gap-5 grid-rows-2 h-[380px] max-md:h-[500px] max-md:grid-cols-4 max-md:grid-rows-3 max-sm:!grid-cols-2 max-sm:!grid-rows-5 max-sm:!h-[1000px] mb-12">
+                <div class="graphic-design bg-[#755cde] relative flex rounded-lg overflow-hidden text-white text-2xl capitalize font-bold p-5">
+                    <img src="images/pattern-graphic-design.svg" alt="" class="absolute right-5">
+                    <p class="self-end">graphic design</p>
+                </div>
+                <div class="ui-ux bg-[#f6a560] relative flex rounded-lg overflow-hidden text-white text-2xl capitalize font-bold p-5">
+                    <img src="images/pattern-ui-ux.svg" alt="" class="absolute right-5">
+                    <p class="self-end">UI/UX</p>
+                </div>
+                <div class="apps bg-[#f39e9e] relative flex rounded-lg overflow-hidden text-white text-2xl capitalize font-bold p-5">
+                    <img src="images/pattern-apps.svg" alt="" class="absolute right-5">
+                    <p class="self-end">apps</p>
+                </div>
+                <div class="ill bg-[#eb7565] relative flex rounded-lg overflow-hidden text-white text-2xl capitalize font-bold p-5">
+                    <img src="images/pattern-illustrations.svg" alt="" class="absolute right-5">
+                    <p class="self-end">illustrations</p>
+                </div>
+                <div class="photography bg-[#61c4b7] relative flex rounded-lg overflow-hidden text-white text-2xl capitalize font-bold p-5">
+                    <img src="images/pattern-photography.svg" alt="" class="absolute right-5">
+                    <p class="self-end">photography</p>
+                </div>
+                <div class="motion-graphs bg-[#552049] relative flex rounded-lg overflow-hidden text-white text-2xl capitalize font-bold p-5">
+                    <img src="images/pattern-motion-graphics.svg" alt="" class="absolute right-5">
+                    <p class="self-end">motion graphics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-28 max-sm:my-16">
+        <div class="container flex items-center justify-between gap-48 max-lg:gap-24 max-md:gap-14 max-sm:flex-col max-sm:!gap-5 max-sm:text-center">
+            <img src="images/image-amy.webp" alt="" class="w-[40%] max-sm:w-[80%]">
+            <div>
+                <h3 class="text-4xl max-sm:!text-[1.2rem] !leading-[1.2] font-bold max-lg:text-2xl">I’m Amy, and I’d love to work on your next project</h3>
+                <p class="text-[#7a746e] my-8 font-semibold">I love working with others to create beautiful design solutions. I’ve designed everything 
+                    from brand illustrations to complete mobile apps. I’m also handy with a camera!</p>
+                <button class="bg-[#eb7565] text-white capitalize font-semibold transition-all duration-200 max-sm:text-[15px] linear hover:bg-[#f6a560] rounded-[30px] py-4 px-8 max-sm:py-3">free consultation</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="work overflow-x-hidden my-20 max-sm:my-12 max-sm:mb-20">
+        <div class="container flex flex-col items-center gap-10">
+            <h3 class="font-bold text-3xl">My Work</h3>
+            <div class="slide flex gap-5 items-center -translate-x-[820px] max-sm:w-[685px]">
+                <img src="images/image-slide-1.jpg" alt="" class="rounded-lg transition-all duration-300 max-md:w-[400px] max-sm:!w-[250px]">
+                <img src="images/image-slide-2.jpg" alt="" class="rounded-lg transition-all duration-300 max-md:w-[400px] max-sm:!w-[250px]">
+                <img src="images/image-slide-3.jpg" alt="" class="rounded-lg transition-all duration-300 max-md:w-[400px] max-sm:!w-[250px]">
+                <img src="images/image-slide-4.jpg" alt="" class="rounded-lg transition-all duration-300 max-md:w-[400px] max-sm:!w-[250px]">
+                <img src="images/image-slide-5.jpg" alt="" class="rounded-lg transition-all duration-300 max-md:w-[400px] max-sm:!w-[250px]">
+            </div>
+            <div class="flex items-center gap-8">
+                <button class="prev max-sm:w-[60px] max-sm:h-[60px] w-16 h-16 rounded-full bg-black text-white flex items-center justify-center hover:!bg-[#755cde] transition-all duration-200"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="next max-sm:w-[60px] max-sm:h-[60px] w-16 h-16 rounded-full bg-black text-white flex items-center justify-center hover:!bg-[#755cde] transition-all duration-200"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="book">
+        <div class="container flex items-center text-white justify-between bg-black !py-16 !px-10 max-md:!px-24 rounded-[10px] max-md:flex-col max-md:text-center max-md:w-11/12">
+            <div>
+                <h3 class="font-bold text-[40px] mb-7 max-sm:text-2xl">Book a call with me</h3>
+                <p class="w-[480px] -tracking-tighter max-md:w-fit max-md:mb-5 max-sm:text-[15px]">I’d love to have a chat to see how I can help you. 
+                    The best first step is for us to discuss your project during a free consultation. 
+                    Then we can move forward from there.</p>
+            </div>
+            <button class="bg-[#eb7565] text-white capitalize font-semibold transition-all duration-200 max-sm:text-[15px] linear hover:bg-[#f6a560] rounded-[30px] py-4 px-8 max-sm:py-3">free consultation</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container h-[10rem] max-sm:h-28 flex items-center justify-between">
+            <img src="images/logo.svg" alt="">
+            <button class="bg-black text-white capitalize font-semibold transition-all duration-200 max-sm:text-xs linear hover:bg-[#755cde] rounded-[30px] py-4 px-10 max-sm:py-3 max-sm:px-8">free consultation</button>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
